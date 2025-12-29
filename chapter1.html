@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <title>Fitness App: Chapter 1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Your custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<script src="script.js"></script>
+
+<body>
+<!-- Global background decoration -->
+<div class="site-background">
+  <div class="bg-vector-wrapper">
+  <img src="images/bg-shape.svg" class="bg-vector" alt="">
+</div>
+</div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top custom-navbar">
+  <div class="container custom-container">
+    <!-- logo -->
+    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Logo"></a>
+
+    <!-- toggle button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- nav links -->
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">PORTFOLIO</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">BLOG</a></li>
+        <li class="nav-item"><a class="nav-cta" href="https://contra.com/arbogiselle?referralExperimentNid=DEFAULT_REFERRAL_PROGRAM&referrerUsername=arbogiselle" target="_blank">HIRE ME</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- --------------------
+       CHAPTER 1 CONTENT
+  -------------------- -->
+
+  <!-- Breadcrumb -->
+<section class="chapter-breadcrumb">
+  <div class="custom-container">
+    <a href="index.html" class="breadcrumb-link">Portfolio</a>
+    <span class="breadcrumb-separator">/</span>
+
+    <a href="index.html#fitness-app" class="breadcrumb-link">Fitness App</a>
+    <span class="breadcrumb-separator">/</span>
+
+    <span class="breadcrumb-current">Chapter 1</span>
+  </div>
+</section>
+
+<section class="chapter-section">
+  <div class="chapter-container">
+
+    <!-- Chapter header -->
+    <header class="chapter-header">
+      <h1 class="chapter-title">Chapter 1: Finding the real problem</h1>
+      <p class="chapter-subtitle">Why people weren’t starting workouts</p>
+    </header>
+  </div>
+
+  <!-- Main content -->
+    <div class="chapter-content">
+
+      <div class="content-block">
+        <h3>The problem</h3>
+        <p>
+          At the end of 2024, the product had two clear issues. Very few free users were becoming paid users, and people who did pay were not coming back often. In simple terms, people were downloading the app, opening it a few times, and leaving.
+        </p>
+                <p>
+         Before jumping into redesigns, I needed to understand why.
+        </p>
+          <p class="thinking-note">
+    My role: As the <strong>Senior UX/UI Designer</strong> on this project, I led the design work from start to finish. 
+      I conducted user research, analyzed feedback, framed the problem, created sketches and wireframes, and 
+      proposed solutions for faster workout discovery and improved navigation. I collaborated with PMs and engineers 
+      to ensure changes were feasible and aligned with business goals.
+  </p>
+      </div>
+
+      <div class="content-block">
+        <h3>What I did first</h3>
+        <p>
+          I started by “listening” to users. I looked at user feedback we already had from App Store reviews, post-workout surveys, “end workout early” surveys, and subscription cancellation surveys.
+        </p>
+      </div>
+
+      <!-- Image block -->
+      <div class="image-block">
+        <img src="images/chapter1-img1.png" alt="User reviews and retention chart">
+        <p class="image-caption">
+          Feedback from different sources showed the same pattern.
+        </p>
+      </div>
+
+        <div class="content-block">
+        <p>
+         I grouped everything into themes and asked one simple question: What is making people stop using the app?</p>
+      </div>
+
+      <!-- User feedback list -->
+      <div class="content-block">
+        <h3>What users were telling us</h3>
+        <p>When everything was grouped together, a clear pattern showed up. People were not saying the workouts were bad or the trainers were bad. They were saying things like:</p>
+        <ul class="insight-list">
+          <li>They couldn’t find what they were looking for.</li>
+          <li>The app felt overwhelming.</li>
+          <li>They just wanted to start a simple workout.</li>
+          <li>They gave up and looked somewhere else.</li>
+        </ul>
+        <p>
+          This feedback came from different devices, experience levels, and use cases...
+          but it pointed to the same problems:
+        </p>
+      </div>
+
+      <!-- Insight table -->
+      <div class="content-block">
+        <div class="insight-table">
+          <div class="table-row table-header">
+            <div>Theme</div>
+            <div>What users said</div>
+          </div>
+          <div class="table-row">
+            <div>Finding workouts</div>
+            <div>"I couldn’t find my saved workouts" or "Too many options"</div>
+          </div>
+          <div class="table-row">
+            <div>Getting Started</div>
+            <div>"I just wanted a simple workout"</div>
+          </div>
+          <div class="table-row">
+            <div>Navigation</div>
+            <div>"I had trouble finding on-demand classes on my computer"</div>
+          </div>
+          <div class="table-row">
+            <div>Progress and motivation</div>
+            <div>"I can't find the next workout on the program I started last week"</div>
+          </div>
+          <div class="table-row">
+            <div>Beginners</div>
+            <div>"The app felt overwheliming at first"</div>
+          </div>
+        </div>
+      </div>
+
+       <!-- Main insight -->
+      <div class="content-block">
+        <h3>The main insight</h3>
+        <p>The app worked like a big video library. That sounds fine, but in practice it meant too many options, too much browsing, and too much thinking before starting. For a fitness app, that’s a problem. If users have to think too much before a workout, they often don’t work out at all.
+        </p>
+        <p>That made our 2025 goal very clear. We needed to help users start their first workout faster, make it easier for them to come back regularly, and reduce the pressure of choosing from thousands of options every time.
+        </p>
+
+      </div>
+
+            <!-- Reality -->
+      <div class="content-block">
+        <h3>The reality we were working with</h3>
+        <p>At the same time, there were clear constraints. The app had grown a lot over the years and couldn’t be rebuilt from scratch. There wasn’t budget or time for a full redesign, and any changes had to work with existing screens and systems. Because of this, the goal wasn’t to make a perfect new app. It was to make improvements without breaking what already existed.
+        </p>
+        <div class="image-block">
+        <img src="images/chapter1-img2.png" alt="User reviews and retention chart">
+        <p class="image-caption">
+           User needs vs. stakeholder needs.
+        </p>
+      </div>
+
+       <div class="content-block">
+        <h3>From problems to possible solutions</h3>
+        <p>
+          I brainstormed solutions for each major problem area. Focusing on ideas that could ship faster, required smaller changes, and had the biggest impact on helping users start a workout. 
+        </p>
+              <div class="content-block">
+        <div class="insight-table">
+          <div class="table-row table-header">
+            <div>Theme</div>
+            <div>Ideas</div>
+          </div>
+          <div class="table-row">
+            <div>Finding workouts</div>
+            <div>Reorganize and rename existing pages to be more intuitive.</div>
+          </div>
+          <div class="table-row">
+            <div>Starting workouts or programs</div>
+            <div>Suggest workouts or programs based on user preferences.</div>
+          </div>
+          <div class="table-row">
+            <div>Access progress</div>
+            <div>Add "In progress.." programs to home page.</div>
+          </div>
+                    <div class="table-row">
+            <div>Motivation to come back</div>
+            <div>A basic "streaks" feature.</div>
+          </div>
+        </div>
+      </div>        
+        <p>
+         Highlighting all my ideas made it easier for non-product stakeholders to understand why some changes mattered more than others.
+        </p>
+      </div>
+
+      <div class="content-block">
+        <h3>What comes next</h3>
+        <p>The sketches, ideas, and final report helped my team get approval to:</p>
+        <ul class="insight-list">
+          <li>Update the app’s tab navigation.</li>
+          <li>Add a more personalized home experience.</li>
+          <li>Introduce basic habit-building features, like streaks.</li>
+        </ul>
+        <p>Each approved change has its own research, testing, and results, which I cover separately in the following chapters.
+
+        </p>
+      </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Next chapter navigation -->
+<section class="chapter-navigation only-next">
+  <div class="custom-container">
+    <a href="chapter2.html" class="next-chapter-link">
+      
+      <div class="next-icon">
+        →
+      </div>
+
+      <div class="next-text">
+        <span class="next-label">Next chapter</span>
+        <span class="next-title">Chapter 2: Fixing navigation</span>
+        <span class="next-subtitle">
+          Making it easier to find and start a workout
+        </span>
+      </div>
+
+    </a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="portfolio-footer">
+  <div class="footer-inner">
+
+    <div class="footer-intro">
+      <h3 class="footer-name">Giselle Arbo</h3>
+      <p class="footer-eyebrow">Product Designer</p>
+      <p class="footer-description">
+        I solve problems and design products.
+      </p>
+
+      <a
+        href="https://contra.com/arbogiselle/services"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="footer-cta"
+      >
+        BROWSE SERVICES
+      </a>
+      <p class="footer-description" style="font-size: 14px; opacity: 0.6; margin-top: 32px;">
+  Designed and built by Giselle · 2025 · HTML, CSS, JS, Bootstrap.
+</p>
+    </div>
+    
+
+    <div class="footer-socials">
+      <a
+        href="https://www.linkedin.com/in/gisellearbo/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="LinkedIn"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 23.5h4V7.98h-4V23.5zM8.5 7.98h3.8v2.12h.05c.53-1 1.82-2.12 3.75-2.12 4.01 0 4.75 2.64 4.75 6.07v9.45h-4v-8.38c0-2-.04-4.57-2.79-4.57-2.8 0-3.23 2.18-3.23 4.43v8.52h-4V7.98z"/>
+        </svg>
+      </a>
+
+      <a
+        href="https://www.behance.net/gisellearbo"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Behance"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M22 7h-6V5h6v2zM8.4 11.7c.8-.4 1.4-1.1 1.4-2.4 0-2.1-1.6-3.3-4.1-3.3H0v12h6.1c2.9 0 4.6-1.4 4.6-3.7 0-1.6-.9-2.7-2.3-3.1zM3 8h2.5c1.1 0 1.8.4 1.8 1.3 0 .9-.6 1.4-1.8 1.4H3V8zm2.7 7H3v-2.9h2.8c1.3 0 2 .5 2 1.4 0 1-.7 1.5-2.1 1.5zM17.6 9.5c-3.2 0-5.3 2.3-5.3 5.3 0 3.1 2.1 5.2 5.4 5.2 2.4 0 4.1-1.2 4.8-3h-2.6c-.4.7-1.1 1-2.2 1-1.5 0-2.5-.9-2.6-2.4H23c.1-.4.1-.7.1-1 0-3-2.1-5.1-5.5-5.1zm-2.7 4.3c.2-1.3 1.1-2.1 2.7-2.1 1.4 0 2.3.8 2.4 2.1h-5.1z"/>
+        </svg>
+      </a>
+
+      <a
+        href="https://github.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="GitHub"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 .5C5.73.5.5 5.74.5 12.03c0 5.11 3.29 9.44 7.86 10.97.57.1.78-.25.78-.55v-2.02c-3.2.7-3.87-1.55-3.87-1.55-.53-1.36-1.3-1.72-1.3-1.72-1.06-.73.08-.72.08-.72 1.17.08 1.79 1.21 1.79 1.21 1.04 1.79 2.73 1.27 3.4.97.1-.75.41-1.27.74-1.56-2.56-.3-5.26-1.29-5.26-5.74 0-1.27.45-2.31 1.2-3.12-.12-.3-.52-1.52.12-3.17 0 0 .98-.31 3.2 1.19.93-.26 1.92-.39 2.9-.39.98 0 1.97.13 2.9.39 2.22-1.5 3.2-1.19 3.2-1.19.64 1.65.24 2.87.12 3.17.75.81 1.2 1.85 1.2 3.12 0 4.46-2.7 5.44-5.28 5.73.42.36.8 1.08.8 2.18v3.23c0 .3.21.66.79.55 4.56-1.53 7.85-5.86 7.85-10.97C23.5 5.74 18.27.5 12 .5z"/>
+        </svg>
+      </a>
+      
+    </div>
+  
+  </div>
+</footer>
+
+</body>
+</html>
