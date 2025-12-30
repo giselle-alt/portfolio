@@ -259,12 +259,11 @@ a {
 
 .fitness-app-section {
   position: relative;
-  background-image:
-    linear-gradient(29deg, #373737 50%, #373737 100%),
-    url("images/bg-fitness.svg");
+  background-color: #373737; /* solid background */
+  background-image: url("images/bg-fitness.svg"); /* SVG on top */
   background-repeat: no-repeat;
-  background-position: left top, left top;
-  background-size: cover, 700px auto;
+  background-position: left top;
+  background-size: 700px auto;
   border-radius: 24px;
   overflow: hidden;
 }
